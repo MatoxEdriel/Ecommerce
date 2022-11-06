@@ -1,0 +1,90 @@
+html{
+
+scroll-behavior: smooth;
+
+}
+
+.animado{
+    opacity: 0;
+    transition: all 0.5s;
+
+
+}
+
+body{
+
+    background-color: white;
+}
+
+
+
+.bg-img-1{
+        background-image: url('/img/pexels-trung-nguyen-7904879.jpg');
+        opacity: 90%;
+        
+}
+
+.bg-img-2{
+        background-image: url('/img/vivero.jpg');
+        opacity: 90%;
+        
+}
+
+.bg-img-3{
+         background-image: url('/img/Is-tap-root-good-for-plants.jpg');
+         opacity: 90%;
+}
+.carousel-image{
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.wrap{
+  margin-bottom: 450px;
+  font-size: large;
+  color: white;
+}
+
+.class-contenedor{
+
+
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.class-contenedor ul li{
+   display: inline-block;
+   margin: 0 5px;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   
+}
+.class-contenedor ul li a{
+    display: block;
+    padding: 0 10px;
+    background: rgb(80, 76, 76);
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px black;
+    transition: .2s;
+}
+.class-contenedor ul:hover a{
+    filter: blur(2px);
+}
+.class-contenedor ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 3px 5px 0px black;
+    filter: none;
+}
+
+.class-contenedor ul li .contactar:hover{
+    background: rgb(38, 197, 91);
+}
