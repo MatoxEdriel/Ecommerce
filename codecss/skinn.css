@@ -13,7 +13,9 @@ scroll-behavior: smooth;
 
 body{
 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    
+    
 }
 
 
@@ -88,3 +90,60 @@ body{
 .class-contenedor ul li .contactar:hover{
     background: rgb(38, 197, 91);
 }
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    background-color:  rgb(159, 236, 159);
+}
+
+.circulo {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+ 
+    
+}
+.regalar{
+    background-image: url("/img/duranta.png");
+    width: 100%;
+    
+
+}
+
+#local{
+    background: white;
+    padding-bottom: 300px;
+    display:flex;
+    justify-content: center;
+
+}
+.wrapper{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+@media(max-width:1200px){
+    #local{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper{
+        width: 90%;
+        margin:auto;
+        padding-top: 50px;
+    }
+}
+
+#numero-local div{
+    padding: 0 20px 0 0;
+    height: 48px;
+
+}
+#numero-local div:not(:last-child){
+    border-right: 2px solid rgb(85, 85, 85) ;
+}
+
