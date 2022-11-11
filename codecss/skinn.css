@@ -21,19 +21,19 @@ body{
 
 
 .bg-img-1{
-        background-image: url('/img/pexels-trung-nguyen-7904879.jpg');
+        background-image: url('/Ecommerce/img/pexels-trung-nguyen-7904879.jpg');
         opacity: 90%;
         
 }
 
 .bg-img-2{
-        background-image: url('/img/vivero.jpg');
+        background-image: url('/Ecommerce/img/vivero.jpg');
         opacity: 90%;
         
 }
 
 .bg-img-3{
-         background-image: url('/img/Is-tap-root-good-for-plants.jpg');
+         background-image: url('/Ecommerce/img/Is-tap-root-good-for-plants.jpg');
          opacity: 90%;
 }
 .carousel-image{
@@ -107,8 +107,9 @@ footer{
     
 }
 .regalar{
-    background-image: url("/img/duranta.png");
+    background-image: url("/Ecommerce/img/green-houseplant-background-plant-lovers-260nw-2061262211.webp");
     width: 100%;
+    
     
 
 }
@@ -146,4 +147,5 @@ footer{
 #numero-local div:not(:last-child){
     border-right: 2px solid rgb(85, 85, 85) ;
 }
+
 
