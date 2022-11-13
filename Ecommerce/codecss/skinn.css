@@ -60,15 +60,15 @@ body{
     justify-content:center ;
     
 }
-.class-contenedor ul li{
+#class-contenedor ul li{
    display: inline-block;
    margin: 0 5px;
    width: 50px;
    height: 50px;
    text-align: center;
-   
+/*  Activar  Botones */ 
 }
-.class-contenedor ul li a{
+#class-contenedor ul li a{
     display: block;
     padding: 0 10px;
     background: rgb(80, 76, 76);
@@ -78,25 +78,35 @@ body{
     box-shadow: 0 3px 5px 0px black;
     transition: .2s;
 }
-.class-contenedor ul:hover a{
+#class-contenedor ul:hover a{
     filter: blur(2px);
 }
-.class-contenedor ul li a:hover{
+#class-contenedor ul li a:hover{
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 3px 5px 0px black;
     filter: none;
 }
 
-.class-contenedor ul li .contactar:hover{
+#class-contenedor ul li .facebook:hover{
+    background: rgb(39, 114, 252);
+}
+#class-contenedor ul li .instagram:hover{
+    background: rgb(207, 37, 199);
+}
+#class-contenedor ul li .whatsapp:hover{
     background: rgb(38, 197, 91);
 }
+
+
+
+
 .logo{
     width: 100px;
     height: 100px;
 }
 
 footer{
-    background-color:  rgb(159, 236, 159);
+    background-color:  rgb(255, 255, 255);
 }
 
 .circulo {
