@@ -159,3 +159,21 @@ footer{
 }
 
 
+
+#effect ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgb(42, 168, 42);
+    height: 5px;
+    top: 0;
+    
+    position: relative;
+    transition: 0.2s;
+
+
+}
+#effect ul li a:hover:before{
+    width: 100%;
+}
+
