@@ -1,4 +1,4 @@
-const app = document.getElementById('typewriter');
+const app = document.getElementById('Typewriter');
 
 const typewriter = new Typewriter(app , {
     loop: true,
@@ -6,8 +6,10 @@ const typewriter = new Typewriter(app , {
 });
 
 typewriter
- .typeString("Domicilio")
+ .typeString("Desde tu casa hasta tu hogar :v")
  .pauseFor(200)
  .start();
+
+
 
  

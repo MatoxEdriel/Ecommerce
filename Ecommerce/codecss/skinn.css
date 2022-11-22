@@ -16,6 +16,7 @@ body{
     background-color: rgb(255, 255, 255);
     
     
+    
 }
 
 
@@ -119,9 +120,6 @@ footer{
 .regalar{
     background-image: url("/Ecommerce/img/green-houseplant-background-plant-lovers-260nw-2061262211.webp");
     width: 100%;
-    
-    
-
 }
 
 #local{
@@ -131,11 +129,44 @@ footer{
     justify-content: center;
 
 }
+
+
+
 .wrapper{
     width: 50%;
     margin-left: 100px;
     padding-top: 150px;
 }
+/* . 
+Seccion Como llegar
+
+
+
+
+
+
+*/
+
+.nosotros{
+    
+    padding-top: 75px;
+
+}
+
+
+.nosotros iframe{
+    width: 500px;
+    height: 500px;
+}
+
+#mapita{
+width: 500px;
+height: 500px;
+
+}
+
+/*Fin de seccion */
+
 @media(max-width:1200px){
     #local{
         flex-wrap: wrap;
@@ -176,4 +207,6 @@ footer{
 #effect ul li a:hover:before{
     width: 100%;
 }
+
+
 
